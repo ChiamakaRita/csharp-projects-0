@@ -26,5 +26,16 @@ namespace csharp_projects_0
         {
             return Teachers.Count;
         }
+
+        public void TeachersNameWithLetterA()
+        {
+            foreach(string name in Teachers)
+            {
+                if(name.Contains('A', StringComparison.OrdinalIgnoreCase))
+                {
+                    Console.WriteLine(name);
+                }
+            }
+        }
     }
 }

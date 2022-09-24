@@ -7,6 +7,8 @@ school.AddTeacher("Henry");
 
 school.ListAllTeachers();
 
-int numOfTeachers = school.NumberOfTeachers();
+school.TeachersNameWithLetterA();
 
-Console.WriteLine($"There are {numOfTeachers} teachers in this school");
+// int numOfTeachers = school.NumberOfTeachers();
+
+// Console.WriteLine($"There are {numOfTeachers} teachers in this school");

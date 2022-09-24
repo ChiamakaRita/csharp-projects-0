@@ -21,5 +21,10 @@ namespace csharp_projects_0
                 Console.WriteLine(teacher);
             }
         }
+
+        public int NumberOfTeachers()
+        {
+            return Teachers.Count;
+        }
     }
 }

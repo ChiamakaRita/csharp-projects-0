@@ -1,14 +1,32 @@
-﻿using csharp_projects_0;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-School school = new("Grace Group of Schools");
+namespace csharp_projects_0
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
 
-school.AddTeacher("Nneoma");
-school.AddTeacher("Henry");
+           School school = new("Grace Group of Schools");
 
-school.ListAllTeachers();
+           school.AddTeacher("Nneoma");
+           school.AddTeacher("Henry");
 
-school.TeachersNameWithLetterA();
+           school.ListAllTeachers();
 
-// int numOfTeachers = school.NumberOfTeachers();
+           school.TeachersNameWithLetterA();
+           Calculations calculations = new Calculations();
+           calculations.EvenNumbers();
+           calculations.Module();
 
-// Console.WriteLine($"There are {numOfTeachers} teachers in this school");
+
+        //    int numOfTeachers = school.NumberOfTeachers();
+
+        //    Console.WriteLine($"There are {numOfTeachers} teachers in this school");
+        }
+    }
+}
+

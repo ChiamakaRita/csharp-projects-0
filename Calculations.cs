@@ -7,14 +7,19 @@ namespace csharp_projects_0
 {
     public class Calculations
     {
-        public void EvenNumbers()
+        public static void EvenNumbers(int target)
         {
             int start = 0;
-            while(start <= 10)
+            while(start <= target)
             {
                 Console.WriteLine(start);
                 start = start + 2;
             }
+        }
+
+        public int AddNumber(int num1, int num2)
+        {
+            return num1 + num2; 
         }
 
         public void Module()

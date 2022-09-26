@@ -19,8 +19,12 @@ namespace csharp_projects_0
 
            school.TeachersNameWithLetterA();
            Calculations calculations = new Calculations();
-           calculations.EvenNumbers();
+           Calculations.EvenNumbers(10);
+           int sum = calculations.AddNumber(10, 20);
+           Console.WriteLine("sum = {0}", sum);
+        //    calling a static meth
            calculations.Module();
+           
 
 
         //    int numOfTeachers = school.NumberOfTeachers();

@@ -30,6 +30,14 @@ namespace csharp_projects_0
            int sum = calculations.AddNumber(10, 20);
            Console.WriteLine("sum = {0}", sum);
            calculations.Module();
+
+           Student S1 = new Student();
+           S1.Id = 1442;
+           S1.Name = "Chiamaka Rita Iheanacho";
+           Console.WriteLine("Student Passmark = {0}", S1.Passmark);
+           Console.WriteLine("Student Id = {0} && StudentName = {1}", S1.Id, S1.Name);
+      
+           
            
 
            

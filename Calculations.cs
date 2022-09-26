@@ -7,6 +7,22 @@ namespace csharp_projects_0
 {
     public class Calculations
     {
+        static float _PI;
+        int _Radius;
+
+        static Calculations()
+        {
+            Calculations._PI = 3.141F;
+        }
+        public Calculations(int Radius)
+        {
+            this._Radius = Radius;
+        }
+
+        public float CalArea()
+        {
+            return Calculations._PI * this._Radius * this._Radius;
+        }
         public static void EvenNumbers(int target)
         {
             int start = 0;
